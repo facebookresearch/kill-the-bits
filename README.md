@@ -1,6 +1,6 @@
 # And the bit goes down
 
-This repository contains the implementation of our paper: [And the bit goes down: Revisiting the quantization of neural networks](https://arxiv.org/abs/1907.05686) as well as the compressed models we obtain (ResNets and Mask R-CNN).
+This repository contains the implementation of our paper: [And the bit goes down: Revisiting the quantization of neural networks](https://arxiv.org/abs/1907.05686) (ICLR 2020) as well as the compressed models we obtain (ResNets and Mask R-CNN).
 
 Our compression method is based on vector quantization. It takes as input an already trained neural network and, through a distillation procedure at all layers and a fine-tuning stage, optimizes the accuracy of the network.
 
