@@ -33,9 +33,8 @@ We provide the vanilla compressed ResNet-18 and ResNet-50 models for 256 centroi
 
 |Model (non-compressed top-1) | Compression | Size ratio | Model size | Top-1 (%)|   
 |:-:|:-:|:-:|:-:|:--:|
-ResNet-18 (69.76%) | Small blocks <br>Large blocks | 29x <br>43x |1.54MB<br>1.03MB|**65.81**<br>**61.18**
-ResNet-50 (76.15%) | Small blocks <br>Large blocks | 19x <br>31x |5.09MB<br>3.19MB|**73.79**<br>**68.21**
-
+ResNet-18 (69.76%) | Small blocks <br>Large blocks | 29x <br>43x |1.54 MB<br>1.03 MB|**65.81**<br>**61.18**
+ResNet-50 (76.15%) | Small blocks <br>Large blocks | 19x <br>31x |5.09 MB<br>3.19 MB|**73.79**<br>**68.21**
 
 To evaluate on the standard test set of ImageNet: clone the repo, `cd` into `src/` and run:
 ```bash
@@ -48,7 +47,7 @@ We provide the compressed [semi-supervised ResNet50](https://arxiv.org/abs/1905.
 
 |Model (non-compressed top-1) | Compression | Size ratio | Model size | Top-1 (%)|   
 |:-:|:-:|:-:|:-:|:--:|
-Semi-Supervised ResNet-50 (76.15%) | Small blocks| 19x | 5.15MB | **76.12**
+Semi-Supervised ResNet-50 (76.15%) | Small blocks| 19x | 5.15 MB | **76.12**
 
 To evaluate on the standard test set of ImageNet: clone the repo, `cd` into `src/` and run:
 ```bash
@@ -61,8 +60,8 @@ We provide the compressed Mask R-CNN (backbone ResNet50-FPN) available in the [P
 
 |Model | Size | Box AP| Mask AP |   
 |:-:|:-:|:-:|:-:|
-|Non-compressed | 170MB | 37.9 | 34.6|
-|Compressed | 6.51MB | 33.9 | 30.8 |
+|Non-compressed | 170 MB | 37.9 | 34.6|
+|Compressed | 6.51 MB | 33.9 | 30.8 |
 
 To evaluate on COCO: clone the repo, run `git checkout mask_r_cnn`, `cd` into `src/` and run:
 ```bash
