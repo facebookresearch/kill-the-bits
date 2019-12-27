@@ -94,7 +94,7 @@ Please consider citing [1] if you found the resources in this repository useful.
 ```
 @inproceedings{stock2019killthebits,
   title = {And the bit goes down: Revisiting the quantization of neural networks},
-  author = {Stock, Pierre and Joulin, Armand and Gribonval, R{\'e}mi and Graham, Benjamin and J{\'e}gou, Herv{\'e}}
+  author = {Stock, Pierre and Joulin, Armand and Gribonval, R{\'e}mi and Graham, Benjamin and J{\'e}gou, Herv{\'e}},
   booktitle = {International Conference on Learning Representations (ICLR)},
   year = {2020}
 }
