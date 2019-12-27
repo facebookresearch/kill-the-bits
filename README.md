@@ -92,10 +92,10 @@ Please consider citing [1] if you found the resources in this repository useful.
 
 [1] Stock, Pierre and Joulin, Armand and Gribonval, Rémi and Graham, Benjamin and Jégou, Hervé. [And the bit goes down: Revisiting the quantization of neural networks](https://arxiv.org/abs/1907.05686).
 ```
-@article{
+@inproceedings{stock2019killthebits,
   title = {And the bit goes down: Revisiting the quantization of neural networks},
   author = {Stock, Pierre and Joulin, Armand and Gribonval, R{\'e}mi and Graham, Benjamin and J{\'e}gou, Herv{\'e}}
-  journal={arXiv e-prints},
-  year = {2019}
+  booktitle = {International Conference on Learning Representations (ICLR)},
+  year = {2020}
 }
 ```
