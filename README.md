@@ -47,7 +47,7 @@ We provide the compressed [semi-supervised ResNet50](https://arxiv.org/abs/1905.
 
 |Model (non-compressed top-1) | Compression | Size ratio | Model size | Top-1 (%)|   
 |:-:|:-:|:-:|:-:|:--:|
-Semi-Supervised ResNet-50 (76.15%) | Small blocks| 19x | 5.15 MB | **76.12**
+Semi-Supervised ResNet-50 (79.30%) | Small blocks| 19x | 5.20 MB | **76.12**
 
 To evaluate on the standard test set of ImageNet: clone the repo, `cd` into `src/` and run:
 ```bash
