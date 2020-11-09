@@ -61,7 +61,7 @@ We provide the compressed Mask R-CNN (backbone ResNet50-FPN) available in the [P
 |Model | Size | Box AP| Mask AP |   
 |:-:|:-:|:-:|:-:|
 |Non-compressed | 170 MB | 37.9 | 34.6|
-|Compressed | 6.51 MB | 33.9 | 30.8 |
+|Compressed | 6.65 MB | 33.9 | 30.8 |
 
 To evaluate on COCO: clone the repo, run `git checkout mask_r_cnn`, `cd` into `src/` and run:
 ```bash
